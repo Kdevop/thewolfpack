@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* stlying for header and nav bar */
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 4.3125rem;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    margin-left: -0.5em;
+}
+
+#logo {
+    max-height: 69px;
+    max-width: 250px;
+    padding-left: 10px;
+    float: left;
+}
+
+#nav {
+    float: right;
+    padding-top: 20px;
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+#nav a {
+    margin: 5px;
+    color: seashell;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+/* styling for Our Mission */
+.ourmission {
+    background-image: url("https://images.unsplash.com/photo-1518562180175-34a163b1a9a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzMzI2MDMyfHxlbnwwfHx8fHw%3D");
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
+    min-height: 25rem;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-top: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.missionwords {
+    color: seashell;
+    padding: 1.875rem;
+}
+
+/* Styling for activities section */
+.totalactcont {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.jobscontainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0.3215rem;
+}
+
+.activitiescont {
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.jobimage {
+    height: 28.125rem;
+    width: 34.375rem;
+    display: flex;
+}
+#storm {
+    background-image: url("https://images.unsplash.com/photo-1560682322-744ba73b6320?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MTA0Njg3MDZ8fGVufDB8fHx8fA%3D%3D");
+}
+
+#items {
+    background-image: url("https://images.unsplash.com/photo-1562701447-8ec5d514a2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8ekZsd0lTaTZtT2t8fGVufDB8fHx8fA%3D%3D");
+}
+
+#assassinations {
+    background-image: url("https://images.unsplash.com/photo-1565557531267-1d5bedaae2bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw4NDg5OTk5fHxlbnwwfHx8fHw%3D");
+}
+
+#ignorequest {
+    background-image: url("https://images.unsplash.com/photo-1520629716099-d147346eb224?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw5ODQ4Mzg1fHxlbnwwfHx8fHw%3D");
+}
+
+.descriptionwhite {
+    color: white;
+    padding: 5px;
+}
+
+.descriptionblack {
+    padding: 5px;
+}
+
+/* start of meet the crew */
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+#picsadventurers {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.adventurercontainer {
+    background-color: black;
+    margin: 5px;
+}
+
+.adventurerimage img {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagetext {
+    color: white;
+    padding: 5px;
+}
+
+/* start of contact section */
+.contactinfo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -100px;
+    margin-top: -5px;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    min-height: 50px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    color: seashell;
+}
+.copyright {
+    padding: 0.625rem;
+}
